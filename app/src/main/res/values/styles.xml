@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--设置SplashActivity 隐藏标题栏-->
+    <style name="AppTheme_SplashActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--全屏显示-->
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
 </resources>

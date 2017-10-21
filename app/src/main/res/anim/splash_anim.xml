@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+
+    duration=1500    持续1.5s
+    fromXScale=1.5   表示将图片放大1.5倍
+    toXScale=1.0     表示将图片缩放回正常大小
+    pivoX=50%        表示动画起始位置，相对于屏幕的百分比，XY都为50%表示从屏幕的中间开始
+
+    -->
+
+
+    <scale
+        android:duration="1500"
+        android:fromXScale="1.5"
+        android:fromYScale="1.5"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="1.0"
+        android:toYScale="1.0"/>
+
+</set>
